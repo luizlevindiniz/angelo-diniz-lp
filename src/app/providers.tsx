@@ -8,7 +8,7 @@ import { ReactNode } from "react";
 export function Providers({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <NextUIProvider>
-      <NextThemesProvider attribute="class" defaultTheme="dark">
+      <NextThemesProvider attribute="class" defaultTheme="system">
         {children}
       </NextThemesProvider>
     </NextUIProvider>
